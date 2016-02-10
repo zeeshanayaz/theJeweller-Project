@@ -1,0 +1,33 @@
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.AddRawMaterial.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.AddVendor.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.SignIn.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.Welcome.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.Customer.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.CheckInventory.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.CheckVendor.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.CustomJob.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.ItemsDisplayList.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.UpdateRawMaterial.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.JwellerySearchForm.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.LoginForm.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.LoginChange.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.POS.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.Properties.Resources.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.RepairJob.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.CheckStatus.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.UpdateStatus.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.UpdateVendor.resources
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\JSMS.exe.config
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\JSMS.exe
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\JSMS.pdb
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\BusinesslogicLayer.dll
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\BusinesslogicLayer.pdb
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.exe
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\obj\Debug\JSMS.pdb
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\DataAccessLayer.dll
+C:\Users\Sher Ahmed\Documents\Visual Studio 2013\Projects\JSMS\JSMS\bin\Debug\DataAccessLayer.pdb
+C:\Users\Zeeshan\Desktop\TheJeweller\JSMS\bin\Debug\JSMS.exe.config
+C:\Users\Zeeshan\Desktop\TheJeweller\JSMS\obj\Debug\JSMS.exe
+C:\Users\Zeeshan\Desktop\TheJeweller\JSMS\obj\Debug\JSMS.pdb

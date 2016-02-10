@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C6FE4F6-49EC-43B0-8EB1-4CA8676EC31E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JSMS</RootNamespace>
+    <AssemblyName>JSMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutTheJeweller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutTheJeweller.Designer.cs">
+      <DependentUpon>AboutTheJeweller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddJewellery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJewellery.Designer.cs">
+      <DependentUpon>AddJewellery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRawMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRawMaterial.Designer.cs">
+      <DependentUpon>AddRawMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVendor.Designer.cs">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Developor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Developor.Designer.cs">
+      <DependentUpon>Developor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemList.Designer.cs">
+      <DependentUpon>ItemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainClass.cs" />
+    <Compile Include="NewsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewsForm.Designer.cs">
+      <DependentUpon>NewsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateJewellery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateJewellery.Designer.cs">
+      <DependentUpon>UpdateJewellery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckCustomer.Designer.cs">
+      <DependentUpon>CheckCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckInventory.Designer.cs">
+      <DependentUpon>CheckInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomJob.Designer.cs">
+      <DependentUpon>CustomJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckVendor.Designer.cs">
+      <DependentUpon>CheckVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemsDisplayList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemsDisplayList.Designer.cs">
+      <DependentUpon>ItemsDisplayList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRawMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateRawMaterial.Designer.cs">
+      <DependentUpon>UpdateRawMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepairJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairJob.Designer.cs">
+      <DependentUpon>RepairJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckStatus.Designer.cs">
+      <DependentUpon>CheckStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JwellerySearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JwellerySearchForm.Designer.cs">
+      <DependentUpon>JwellerySearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginChange.Designer.cs">
+      <DependentUpon>LoginChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS.Designer.cs">
+      <DependentUpon>POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStatus.Designer.cs">
+      <DependentUpon>UpdateStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateVendor.Designer.cs">
+      <DependentUpon>UpdateVendor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutTheJeweller.resx">
+      <DependentUpon>AboutTheJeweller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJewellery.resx">
+      <DependentUpon>AddJewellery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRawMaterial.resx">
+      <DependentUpon>AddRawMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVendor.resx">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Developor.resx">
+      <DependentUpon>Developor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemList.resx">
+      <DependentUpon>ItemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsForm.resx">
+      <DependentUpon>NewsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateJewellery.resx">
+      <DependentUpon>UpdateJewellery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckCustomer.resx">
+      <DependentUpon>CheckCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckInventory.resx">
+      <DependentUpon>CheckInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckVendor.resx">
+      <DependentUpon>CheckVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomJob.resx">
+      <DependentUpon>CustomJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemsDisplayList.resx">
+      <DependentUpon>ItemsDisplayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRawMaterial.resx">
+      <DependentUpon>UpdateRawMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JwellerySearchForm.resx">
+      <DependentUpon>JwellerySearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginChange.resx">
+      <DependentUpon>LoginChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS.resx">
+      <DependentUpon>POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairJob.resx">
+      <DependentUpon>RepairJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckStatus.resx">
+      <DependentUpon>CheckStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStatus.resx">
+      <DependentUpon>UpdateStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateVendor.resx">
+      <DependentUpon>UpdateVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border D_L.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border D_R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border T_L.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border T_R.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueSideBar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10930082_910230192341846_3465040762757171522_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1476345_349037295286176_6356070061027766345_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11102985_751747601604882_6646773284938220159_n.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
